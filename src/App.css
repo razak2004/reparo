@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.login {
+  width: 1500px;
+  height: 920px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #373737;
+  border: 2px solid #373737;
+  display: flex;
+  align-items: center;
+  /* justify-content: ; */
+  overflow: hidden;
+  gap: 5%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 350px;
+  background-color: #ff637c;
+  margin-top: -700px;
+  margin-left: -120px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginContainer {
+  width: 350px;
+  height: 500px;
+  border-radius: 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-}
+  padding: 10px;
+  align-items: center;
+  font-family: "Lexend Exa", sans-serif;
 
-.App-link {
-  color: #61dafb;
+  background-color: #3d3d3d;
+  border: 1px solid white;
+  gap: 5%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginContainer h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+.inputContainer {
+  width: 310px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 60px;
+  padding: 5px;
+  background-color: #373737;
+  display: flex;
+  flex-direction: column;
+  color: #ff637c;
+  gap: 5%;
+}
+.inputContainer input {
+  height: 30px;
+  width: 95%;
+  margin-top: 3px;
+  margin-left: 3px;
+  border: none;
+  background-color: #373737;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  border-bottom: 1px solid white;
+}
+.circ2 {
+  width: 600px;
+  height: 600px;
+  border-radius: 350px;
+  background-color: #ff637c;
+  margin-bottom: -700px;
+  margin-right: -120px;
 }
