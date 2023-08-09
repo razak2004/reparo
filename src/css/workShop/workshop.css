@@ -1,0 +1,66 @@
+:root {
+  --darkGray: #373737;
+  --pink: #ff637c;
+}
+.workNavBar {
+  width: 200px;
+  height: 893px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5%;
+
+  background-color: white;
+}
+.workNavBar img {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 100px;
+  margin-top: 25px;
+}
+.workNavBar button {
+  background-color: white;
+  color: black;
+  width: 80%;
+  height: 60px;
+  font-size: 20px;
+  font-family: "Lexend Exa", sans-serif;
+  border: none;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+.workNavBar button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.workshop {
+  background-color: black;
+  display: flex;
+  gap: 2%;
+}
+@media (max-width: 768px) {
+  .workNavBar button p {
+    display: none;
+  }
+  .workNavBar button {
+    width: 100%;
+    border-radius: none;
+  }
+  .workNavBar button:hover {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .workNavBar {
+    width: 60px;
+  }
+}

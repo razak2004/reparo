@@ -1,10 +1,10 @@
 .login {
   width: 1500px;
-  height: 920px;
+  height: 887px;
   margin: 0px;
   padding: 0px;
-  background-color: #373737;
-  border: 2px solid #373737;
+  background-color: black;
+  border: 2px solid black;
   display: flex;
   align-items: center;
   /* justify-content: ; */
@@ -46,7 +46,7 @@
   gap: 5%;
 }
 .cont span {
-  color: white;
+  color: #ff637c;
 }
 .inputContainer {
   width: 310px;
@@ -79,7 +79,7 @@
 .loginContainer h5 {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .loginContainer button {
   width: 90%;
@@ -105,4 +105,20 @@
   background-color: #ff637c;
   margin-bottom: -700px;
   margin-right: -120px;
+}
+@media (max-width: 768px) {
+  .circ2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+  }
+  .login {
+    width: 495px;
+    height: 700px;
+  }
 }

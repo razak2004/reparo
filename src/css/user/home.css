@@ -1,0 +1,20 @@
+* {
+  font-family: "Lexend Exa", sans-serif;
+}
+h2 {
+  color: white;
+  margin-top: 20px;
+}
+.home {
+  width: 1250px;
+  height: 750px;
+  border-radius: 50px;
+  background-color: var(--darkGray);
+  color: aliceblue;
+}
+@media (max-width: 768px) {
+  .home {
+    width: 400px;
+    height: 600px;
+  }
+}
